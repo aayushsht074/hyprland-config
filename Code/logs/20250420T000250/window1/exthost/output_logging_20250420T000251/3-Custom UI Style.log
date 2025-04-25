@@ -1,0 +1,1 @@
+[ERROR] This extension need to modify VSCode's source code but current user is not allowed. Please run "sudo chown -R $(whoami) '/opt/visual-studio-code/resources/app/out'" to grant permissions, RangeError: Maximum call stack size exceeded

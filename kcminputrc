@@ -1,0 +1,6 @@
+[Libinput][1267][12826][ELAN07D2:00 04F3:321A Touchpad]
+DisableWhileTyping=false
+NaturalScroll=true
+
+[Mouse]
+cursorTheme=Qogir-dark

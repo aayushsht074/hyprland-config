@@ -1,0 +1,5 @@
+2025/04/21-00:35:29.564 4 Reusing MANIFEST /home/aayush/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/04/21-00:35:29.568 4 Recovering log #56
+2025/04/21-00:35:29.572 4 Level-0 table #59: started
+2025/04/21-00:35:29.589 4 Level-0 table #59: 224031 bytes OK
+2025/04/21-00:35:29.607 4 Delete type=0 #56

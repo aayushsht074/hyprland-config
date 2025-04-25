@@ -1,0 +1,70 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "d9c23691ce3da75a9f2bc4ecc525e0cd937ccf8e73571db715b4251ff9fca708",
+    "telemetry.devDeviceId": "d3668c28-07d3-414b-93d0-43e9e9d051df",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/aayush/.config"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1745624144392"
+            }
+        ]
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///run/media/aayush/New%20Volume/Python": "__default__profile__",
+            "file:///home/aayush/.config": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#282c34",
+    "windowSplash": {
+        "zoomLevel": 0.05,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#282c34",
+            "editorBackground": "#282c34",
+            "titleBarBackground": "#282c34",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#282c34",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#282c34",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#282c34",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#282c34"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 236,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 0,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/aayush/.config",
+            "backupPath": "/home/aayush/.config/Code/Backups/f617d310945be84ded5f32d770096ab1",
+            "uiState": {
+                "mode": 1,
+                "x": 8,
+                "y": 56,
+                "width": 1904,
+                "height": 1016
+            }
+        },
+        "openedWindows": []
+    }
+}

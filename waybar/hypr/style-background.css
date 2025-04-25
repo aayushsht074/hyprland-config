@@ -1,0 +1,261 @@
+/* =============================================================================
+ *
+ * Waybar configuration
+ *
+ * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+ *
+ * =========================================================================== */
+
+/* -----------------------------------------------------------------------------
+ * Keyframes
+ * -------------------------------------------------------------------------- */
+
+ @import "color.css";
+
+ /*
+  Polar Night
+  nord0  #2e3440
+  nord1  #3b4252
+  nord2  #434c5e
+  nord3  #4c566a
+  Snow Storm
+  nord4  #d8dee9
+  nord5  #e5e9f0
+  nord6  #eceff4
+  Frost
+  nord7  #8fbcbb
+  nord8  #88c0d0
+  nord9  #81a1c1
+  nord10 #5e81ac
+  Aurora
+  nord11 #bf616a
+  nord12 #d08770
+  nord13 #ebcb8b
+  nord14 #a3be8c
+  nord15 #b48ead
+  */
+ 
+ /* -----------------------------------------------------------------------------
+   * Base styles
+   * -------------------------------------------------------------------------- */
+ 
+ /* Reset all styles */
+ * {
+     color: var(--lavender, #c8b9a9); /* Replace with actual color variable or hex value */
+     border: 0;
+     padding: 0;
+     font-family: "JetbrainsMono Nerd Font", monospace;
+     font-size: 14px;
+ }
+ 
+ window#waybar {
+     border: 0;
+     background-color: rgba(0, 0, 0, 0);
+ }
+ 
+ #workspaces button {
+     color: var(--base, #2e3440); /* Replace with actual color variable or hex value */
+     border-radius: 50%;
+     margin-left: 1px;
+     margin-right: 1px;
+     padding: 4px 6px 2px 6px;
+ }
+ 
+ #workspaces button.empty {
+     color: var(--mauve, #d08770); /* Replace with actual color variable or hex value */
+     box-shadow: none;
+     text-shadow: none;
+     border: 0;
+     border-radius: 10px;
+     background: none;
+ }
+ 
+ #workspaces {
+     border-style: solid;
+     background-color: var(--base, #2e3440); /* Replace with actual color variable or hex value */
+     opacity: 1;
+     border-radius: 10px;
+     margin: 8px 0px 8px 10px;
+ }
+ 
+ #workspaces button.active {
+     color: var(--blue, #88c0d0); /* Replace with actual color variable or hex value */
+     border-radius: 20px;
+ }
+ 
+ #workspaces button.visible * {
+     color: var(--red, #bf616a); /* Replace with actual color variable or hex value */
+ }
+ 
+ #mode {
+     color: var(--yellow, #ebcb8b); /* Replace with actual color variable or hex value */
+ }
+ 
+ #clock,
+ #custom-swap,
+ #custom-clipboard,
+ #battery,
+ #cpu,
+ #memory,
+ #idle_inhibitor,
+ #temperature,
+ #backlight,
+ #network,
+ #pulseaudio,
+ #mode,
+ #tray,
+ #custom-power,
+ #custom-pacman,
+ #custom-launcher,
+ #mpd {
+     padding: 5px 8px;
+     border-style: solid;
+     background-color: var(--base, #2e3440); /* Replace with actual color variable or hex value */
+     opacity: 0.5;
+     margin: 8px 0;
+ }
+ 
+ /* -----------------------------------------------------------------------------
+   * Module styles
+   * -------------------------------------------------------------------------- */
+ #mpd {
+     border-radius: 10px;
+     color: var(--mauve, #d08770); /* Replace with actual color variable or hex value */
+     margin-left: 5px;
+     background-color: rgba(0, 0, 0, 0);
+ }
+ 
+ #mpd.2,
+ #mpd.3,
+ #mpd.4 {
+     background-color: var(--base, #2e3440); /* Replace with actual color variable or hex value */
+     font-size: 14px;
+ }
+ 
+ #mode {
+     border-radius: 10px;
+     color: var(--mauve, #d08770); /* Replace with actual color variable or hex value */
+     margin-right: 5px;
+ }
+ 
+ #custom-swap {
+     border-radius: 10px;
+     color: var(--mauve, #d08770); /* Replace with actual color variable or hex value */
+     margin-left: 15px;
+     background-color: var(--base, #2e3440); /* Replace with actual color variable or hex value */
+ }
+ 
+ #clock {
+     color: var(--sky, #a3be8c); /* Replace with actual color variable or hex value */
+     border-radius: 10px;
+     margin: 8px 10px;
+ }
+ 
+ #backlight {
+     color: var(--yellow, #ebcb8b); /* Replace with actual color variable or hex value */
+     border-radius: 10px;
+ }
+ 
+ #battery {
+     color: #d8dee9;
+     border-radius: 10px;
+     margin-right: 10px;
+ }
+ 
+ #battery.charging {
+     color: #81a1c1;
+ }
+ 
+ @keyframes blink {
+     to {
+         color: var(--red, #bf616a); /* Replace with actual color variable or hex value */
+     }
+ }
+ 
+ #battery.critical:not(.charging) {
+     color: #bf616a;
+     animation-name: blink;
+     animation-duration: 0.5s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+ }
+ 
+ #cpu {
+     color: var(--sky, #a3be8c); /* Replace with actual color variable or hex value */
+ }
+ 
+ #memory {
+     color: var(--sky, #a3be8c); /* Replace with actual color variable or hex value */
+     border-radius: 10px;
+     margin-right: 10px;
+ }
+ 
+ #network.disabled {
+     color: var(--red, #bf616a); /* Replace with actual color variable or hex value */
+ }
+ 
+ #network {
+     color: var(--green, #a3be8c); /* Replace with actual color variable or hex value */
+     border-radius: 10px;
+     margin-right: 5px;
+ }
+ 
+ #network.disconnected {
+     color: var(--red, #bf616a); /* Replace with actual color variable or hex value */
+ }
+ 
+ #pulseaudio {
+     color: var(--flamingo, #d08770); /* Replace with actual color variable or hex value */
+     border-radius: 10px;
+     margin-right: 10px;
+ }
+ 
+ #pulseaudio.muted {
+     color: var(--base, #2e3440); /* Replace with actual color variable or hex value */
+ }
+ 
+ #temperature {
+     color: var(--teal, #8fbcbb); /* Replace with actual color variable or hex value */
+     border-radius: 10px;
+ }
+ 
+ #temperature.critical {
+     color: var(--red, #bf616a); /* Replace with actual color variable or hex value */
+ }
+ 
+ #idle_inhibitor {
+     background-color: var(--yellow, #ebcb8b); /* Replace with actual color variable or hex value */
+     color: var(--base, #2e3440); /* Replace with actual color variable or hex value */
+ }
+ 
+ #tray {
+     margin: 8px 10px;
+     border-radius: 10px;
+ }
+ 
+ #custom-launcher {
+     font-size: 20px;
+     background-color: var(--mauve, #d08770); /* Replace with actual color variable or hex value */
+     color: var(--base, #2e3440); /* Replace with actual color variable or hex value */
+     border-radius: 10px;
+     padding: 5px 10px;
+     margin-left: 15px;
+ }
+ 
+ #custom-power {
+     font-size: 20px;
+     color: var(--base, #2e3440); /* Replace with actual color variable or hex value */
+     background-color: var(--red, #bf616a); /* Replace with actual color variable or hex value */
+     border-radius: 10px;
+     margin-left: 5px;
+     margin-right: 15px;
+     padding: 5px 10px;
+ }
+ 
+ #window {
+     margin-left: 10px;
+     margin-right: 10px;
+     color: #eceff4;
+ }
+ 

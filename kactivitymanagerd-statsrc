@@ -1,0 +1,5 @@
+[Favorites-org.kde.plasma.kickoff.favorites.instance-4-489a3967-9e47-4327-8df8-82e836470b35]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:com.visualstudio.code.desktop,applications:app.zen_browser.zen.desktop,applications:org.gnome.Software.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-4-global]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:com.visualstudio.code.desktop,applications:app.zen_browser.zen.desktop,applications:org.gnome.Software.desktop

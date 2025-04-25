@@ -1,0 +1,6 @@
+2025-04-02 23:55:52.595 [info] Started local extension host with pid 1567.
+2025-04-02 23:55:55.054 [error] Error while getting the latest version for the extension ardonplay.vscode-jetbrains-icon-theme. Cannot read properties of undefined (reading 'replace')
+2025-04-02 23:55:55.055 [error] Error while getting the latest version for the extension devgauravjatt.github-catppuccin-dark. Cannot read properties of undefined (reading 'replace')
+2025-04-02 23:55:55.055 [error] Error while getting the latest version for the extension drcika.apc-extension. Cannot read properties of undefined (reading 'replace')
+2025-04-02 23:55:55.055 [error] Error while getting the latest version for the extension miguelsolorio.fluent-icons. Cannot read properties of undefined (reading 'replace')
+2025-04-02 23:55:55.435 [info] [perf] Render performance baseline is 24ms

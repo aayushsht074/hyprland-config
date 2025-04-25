@@ -1,0 +1,268 @@
+/* =============================================================================
+ *
+ * Waybar configuration
+ *
+ * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+ *
+ * =========================================================================== */
+
+/* -----------------------------------------------------------------------------
+ * Keyframes
+ * -------------------------------------------------------------------------- */
+
+ @import "color.css";
+
+ /* -----------------------------------------------------------------------------
+    * Base styles
+    * -------------------------------------------------------------------------- */
+
+ /* Reset all styles */
+ * {
+   color: var(--lavender); /* Ensure @lavender is defined in color.css */
+   border: 0;
+   padding: 0 0;
+   font-family: "JetbrainsMono Nerd Font";
+   font-size: 14px;
+   transition: all 0.5s ease;
+
+ }
+
+ window#waybar {
+   border-bottom: 4px solid shade(var(--base), 1.1); /* Ensure @base is defined */
+   background-color: shade(#1e1e2e, 0.95);
+ }
+
+ #workspaces button {
+   color: var(--base); /* Ensure @base is defined */
+   border-radius: 10px;
+   margin-left: 1px;
+   margin-right: 1px;
+   padding: 6px;
+ }
+
+ #workspaces button.empty {
+   color: var(--mauve); /* Ensure @mauve is defined */
+   box-shadow: none;
+   text-shadow: none;
+   border: 0px;
+   border-radius: 10px;
+   background: none;
+ }
+
+ #workspaces {
+   border-style: solid;
+   background-color: var(--base); /* Ensure @base is defined */
+   opacity: 1;
+   border-radius: 10px;
+   margin: 10px 8px;
+ }
+
+ #workspaces button.active {
+   color: @blue; /* Ensure @blue is defined */
+   border-radius: 20px;
+ }
+
+ #workspaces button.visible * {
+   color: @red;/* Ensure @red is defined */
+
+ }
+
+ #clock,
+ #custom-swap,
+ #custom-clipboard,
+ #custom-background,
+ #battery,
+ #cpu,
+ #memory,
+ #idle_inhibitor,
+ #temperature,
+ #backlight,
+ #network,
+ #pulseaudio,
+ #mode,
+ #tray,
+ #mpd {
+   padding: 5px 8px;
+   border-style: solid;
+   background-color: shade(@base, 1.1); /* Ensure @base is defined */
+   opacity: 1;
+   margin: 8px 0;
+ }
+
+ /* -----------------------------------------------------------------------------
+    * Module styles
+    * -------------------------------------------------------------------------- */
+
+ #mode {
+   border-radius: 10px;
+   color: @mauve; /* Ensure @mauve is defined */
+   margin-right: 5px;
+ }
+
+ #mpd {
+   border-radius: 10px;
+   color: @mauve; /* Ensure @mauve is defined */
+   margin-left: 5px;
+   background-color: rgba(0, 0, 0, 0);
+ }
+
+ #mpd.2 {
+   border-radius: 10px 0px 0px 10px;
+   margin: 8px 0px 8px 6px;
+   padding: 4px 12px 4px 10px;
+ }
+
+ #mpd.3 {
+   border-radius: 0px 0px 0px 0px;
+   margin: 8px 0px 8px 0px;
+   padding: 4px;
+ }
+
+ #mpd.4 {
+   border-radius: 0px 10px 10px 0px;
+   margin: 8px 0px 8px 0px;
+   padding: 4px 10px 4px 14px;
+ }
+
+ #mpd.2,
+ #mpd.3,
+ #mpd.4 {
+   background-color: @base; /* Ensure @base is defined */
+   font-size: 14px;
+ }
+
+ #custom-swap {
+   border-radius: 10px;
+   color: @mauve; /* Ensure @mauve is defined */
+   margin-left: 10px;
+   background-color: @base; /* Ensure @base is defined */
+ }
+
+ #custom-background {
+   border-radius: 0px 10px 10px 0px;
+   background-color: @base; /* Ensure @base is defined */
+   color: white;
+   padding: 5px 14px 5px 5px;
+ }
+
+ #clock {
+   color: @sky; /* Ensure @sky is defined */
+   border-radius: 10px;
+   margin: 8px 10px;
+ }
+
+ #backlight {
+   color: @yellow; /* Ensure @yellow is defined */
+   border-radius: 10px;
+   margin-right:10px;
+ }
+
+ #battery {
+   color: #d8dee9;
+   border-radius:  10px;
+   margin-right: 10px;
+ }
+
+ #battery.charging {
+   color: #81a1c1;
+ }
+
+ @keyframes blink {
+   to {
+     color: @red; /* Ensure @red is defined */
+   }
+ }
+
+ #battery.critical:not(.charging) {
+   color: #bf616a;
+   animation-name: blink;
+   animation-duration: 0.5s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+ }
+
+ #cpu {
+   color: @sky; /* Ensure @sky is defined */
+   border-radius:  10px ;
+   margin-right: 10px ;
+ }
+
+ #cpu #cpu-icon {
+   color: @sky; /* Ensure @sky is defined */
+ }
+
+ #memory {
+   color: @sky; /* Ensure @sky is defined */
+   border-radius:  10px ;
+   margin-right: 10px;
+ }
+
+ #network.disabled {
+   color: #bf616a;
+ }
+
+ #network {
+   color: @green; /* Ensure @green is defined */
+   border-radius: 10px;
+   margin-right: 10px;
+ }
+
+ #network.disconnected {
+   color: #bf616a;
+ }
+
+ #pulseaudio {
+   color: @flamingo; /* Ensure @flamingo is defined */
+   border-radius: 10px ;
+   margin-right: 10px;
+ }
+
+ #pulseaudio.muted {
+   color: #3b4252;
+   border-radius: 0 10px 10px 0;
+   margin: 10px;
+ }
+
+ #temperature {
+   color: @teal; /* Ensure @teal is defined */
+   border-radius: 10px 0 0 10px;
+ }
+
+ #temperature.critical {
+   color: @red; /* Ensure @red is defined */
+ }
+
+ #idle_inhibitor {
+   background-color: #ebcb8b;
+   color: @base; /* Ensure @base is defined */
+ }
+
+ #tray {
+   margin: 8px 10px;
+   border-radius: 10px;
+ }
+
+ #custom-launcher {
+   font-size: 20px;
+   background-color: shade(@base, 1.1);
+   color: @mauve; /* Ensure @mauve is defined */
+   border-radius: 0px 15px 15px 0px;
+   padding: 5px 10px 5px 10px;
+ }
+
+ #custom-power {
+   font-size: 20px;
+   color: @red; /* Ensure @red is defined */
+   background-color: shade(@base, 1.1);
+   border-radius: 15px 0px 0px 15px;
+   padding: 10px 5px 10px 5px;
+ }
+
+ #window {
+   border-style: hidden;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #eceff4;
+ }
+

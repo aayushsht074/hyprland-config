@@ -1,0 +1,265 @@
+/* =============================================================================
+ *
+ * Waybar configuration
+ *
+ * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+ *
+ * =========================================================================== */
+
+/* -----------------------------------------------------------------------------
+ * Keyframes
+ * -------------------------------------------------------------------------- */
+
+ @import "color.css";
+
+/* -----------------------------------------------------------------------------
+ * Base styles
+ * -------------------------------------------------------------------------- */
+
+/* Reset all styles */
+* {
+   color: var(--lavender); /* Ensure --lavender is defined in color.css */
+   border: 0;
+   padding: 0 0;
+   font-family: "JetbrainsMono Nerd Font";
+   font-size: 14px;
+   transition: all 0.5s ease;
+}
+
+window#waybar {
+   border-bottom: 4px solid var(--base); /* Changed @base to var(--base) */
+   background-color: shade(var(--base), 0.95); /* Updated to use var(--base) */
+}
+
+#workspaces button {
+   color: var(--base); /* Updated to use var(--base) */
+   border-radius: 10px;
+   margin-left: 1px;
+   margin-right: 1px;
+   padding: 6px;
+}
+
+#workspaces button.empty {
+   color: var(--mauve); /* Updated to use var(--mauve) */
+   box-shadow: none;
+   text-shadow: none;
+   border: 0px;
+   border-radius: 10px;
+   background: none;
+}
+
+#workspaces {
+   border-style: solid;
+   background-color: var(--base); /* Updated to use var(--base) */
+   opacity: 1;
+   border-radius: 10px;
+   margin: 10px 8px;
+}
+
+#workspaces button.active {
+   color: var(--blue); /* Updated to use var(--blue) */
+   border-radius: 20px;
+}
+
+#workspaces button.visible * {
+   color: var(--red); /* Updated to use var(--red) */
+}
+
+#clock,
+#custom-swap,
+#custom-clipboard,
+#custom-background,
+#battery,
+#cpu,
+#memory,
+#idle_inhibitor,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#mode,
+#tray,
+#mpd {
+   padding: 5px 8px;
+   border-style: solid;
+   background-color: shade(var(--base), 0.95); /* Updated to use var(--base) */
+   opacity: 1;
+   margin: 8px 0;
+}
+
+/* -----------------------------------------------------------------------------
+ * Module styles
+ * -------------------------------------------------------------------------- */
+
+#mode {
+   border-radius: 10px;
+   color: var(--mauve); /* Updated to use var(--mauve) */
+   margin-right: 5px;
+}
+
+#mpd {
+   border-radius: 10px;
+   color: var(--mauve); /* Updated to use var(--mauve) */
+   margin-left: 5px;
+   background-color: rgba(0, 0, 0, 0);
+}
+
+#mpd.2 {
+   border-radius: 10px 0px 0px 10px;
+   margin: 8px 0px 8px 6px;
+   padding: 4px 12px 4px 10px;
+}
+
+#mpd.3 {
+   border-radius: 0px 0px 0px 0px;
+   margin: 8px 0px 8px 0px;
+   padding: 4px;
+}
+
+#mpd.4 {
+   border-radius: 0px 10px 10px 0px;
+   margin: 8px 0px 8px 0px;
+   padding: 4px 10px 4px 14px;
+}
+
+#mpd.2,
+#mpd.3,
+#mpd.4 {
+   background-color: var(--base); /* Updated to use var(--base) */
+   font-size: 14px;
+}
+
+#custom-swap {
+   border-radius: 10px;
+   color: var(--mauve); /* Updated to use var(--mauve) */
+   margin-left: 10px;
+   background-color: var(--base); /* Updated to use var(--base) */
+}
+
+#custom-background {
+   border-radius: 0px 10px 10px 0px;
+   background-color: var(--base); /* Updated to use var(--base) */
+   color: white;
+   padding: 5px 14px 5px 5px;
+}
+
+#clock {
+   color: var(--sky); /* Updated to use var(--sky) */
+   border-radius: 10px;
+   margin: 8px 10px;
+}
+
+#backlight {
+   color: var(--yellow); /* Updated to use var(--yellow) */
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+#battery {
+   color: #d8dee9;
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+#battery.charging {
+   color: #81a1c1;
+}
+
+@keyframes blink {
+   to {
+     color: var(--red); /* Updated to use var(--red) */
+   }
+}
+
+#battery.critical:not(.charging) {
+   color: #bf616a;
+   animation-name: blink;
+   animation-duration: 0.5s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+#cpu {
+   color: var(--sky); /* Updated to use var(--sky) */
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+#cpu #cpu-icon {
+   color: var(--sky); /* Updated to use var(--sky) */
+}
+
+#memory {
+   color: var(--sky); /* Updated to use var(--sky) */
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+#network.disabled {
+   color: #bf616a;
+}
+
+#network {
+   color: var(--green); /* Updated to use var(--green) */
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+#network.disconnected {
+   color: #bf616a;
+}
+
+#pulseaudio {
+   color: var(--flamingo); /* Updated to use var(--flamingo) */
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+#pulseaudio.muted {
+   color: #3b4252;
+   border-radius: 0 10px 10px 0;
+   margin: 10px;
+}
+
+#temperature {
+   color: var(--teal); /* Updated to use var(--teal) */
+   border-radius: 10px 0 0 10px;
+}
+
+#temperature.critical {
+   color: var(--red); /* Updated to use var(--red) */
+}
+
+#idle_inhibitor {
+   background-color: #ebcb8b;
+   color: var(--base); /* Updated to use var(--base) */
+}
+
+#tray {
+   margin: 8px 10px;
+   border-radius: 10px;
+}
+
+#custom-launcher {
+   font-size: 20px;
+   background-color: shade(var(--base), 1.1); /* Updated to use var(--base) */
+   color: var(--mauve); /* Updated to use var(--mauve) */
+   border-radius: 0px 15px 15px 0px;
+   padding: 5px 10px 5px 10px;
+}
+
+#custom-power {
+   font-size: 20px;
+   color: var(--red); /* Updated to use var(--red) */
+   background-color: shade(var(--base), 1.1); /* Updated to use var(--base) */
+   border-radius: 15px 0px 0px 15px;
+   padding: 10px 5px 10px 5px;
+}
+
+#window {
+   border-style: hidden;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #eceff4;
+}

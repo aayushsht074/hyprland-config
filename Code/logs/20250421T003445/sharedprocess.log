@@ -1,0 +1,18 @@
+2025-04-21 00:36:02.120 [info] Getting Manifest... ms-python.python
+2025-04-21 00:36:02.149 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aayush/.vscode/extensions/extensions.json","path":"/home/aayush/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-04-21 00:36:02.560 [info] Getting Manifest... ms-python.vscode-pylance
+2025-04-21 00:36:02.587 [info] Getting Manifest... ms-python.debugpy
+2025-04-21 00:36:02.639 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aayush/.vscode/extensions/extensions.json","path":"/home/aayush/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-04-21 00:36:02.639 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aayush/.vscode/extensions/extensions.json","path":"/home/aayush/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-04-21 00:36:05.965 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 992ms.
+2025-04-21 00:36:05.975 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 800ms.
+2025-04-21 00:36:06.428 [info] Extracted extension to file:///home/aayush/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64: ms-python.debugpy
+2025-04-21 00:36:06.453 [info] Renamed to /home/aayush/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64
+2025-04-21 00:36:07.079 [info] Extracted extension to file:///home/aayush/.vscode/extensions/ms-python.python-2025.4.0-linux-x64: ms-python.python
+2025-04-21 00:36:07.136 [info] Renamed to /home/aayush/.vscode/extensions/ms-python.python-2025.4.0-linux-x64
+2025-04-21 00:36:07.393 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 624ms.
+2025-04-21 00:36:09.733 [info] Extracted extension to file:///home/aayush/.vscode/extensions/ms-python.vscode-pylance-2025.4.1: ms-python.vscode-pylance
+2025-04-21 00:36:09.908 [info] Renamed to /home/aayush/.vscode/extensions/ms-python.vscode-pylance-2025.4.1
+2025-04-21 00:36:09.935 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/aayush/.vscode/extensions/extensions.json
+2025-04-21 00:36:09.935 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/aayush/.vscode/extensions/extensions.json
+2025-04-21 00:36:09.935 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/aayush/.vscode/extensions/extensions.json

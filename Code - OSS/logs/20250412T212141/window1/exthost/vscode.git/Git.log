@@ -1,0 +1,23 @@
+2025-04-12 21:21:44.702 [info] [main] Log level: Info
+2025-04-12 21:21:44.702 [info] [main] Validating found git in: "git"
+2025-04-12 21:21:44.702 [info] [main] Using git "2.49.0" from "git"
+2025-04-12 21:21:44.702 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-12 21:21:44.702 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-12 21:21:44.702 [info] fatal: not a git repository (or any parent up to mount point /run/media/aayush)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 21:21:44.702 [info] > git rev-parse --show-toplevel [33ms]
+2025-04-12 21:21:44.702 [info] fatal: not a git repository (or any parent up to mount point /run/media/aayush)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 21:21:44.703 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-12 21:21:44.703 [info] fatal: not a git repository (or any parent up to mount point /run/media/aayush)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 21:21:44.712 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 21:21:44.712 [info] fatal: not a git repository (or any parent up to mount point /run/media/aayush)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 21:21:44.712 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-12 21:21:45.876 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-12 21:21:45.876 [info] fatal: not a git repository (or any parent up to mount point /run/media/aayush)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-04-12 21:21:46.100 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-12 21:21:46.100 [info] fatal: not a git repository (or any parent up to mount point /run/media/aayush)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

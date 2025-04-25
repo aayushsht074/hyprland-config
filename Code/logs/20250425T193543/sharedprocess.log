@@ -1,0 +1,6 @@
+2025-04-25 19:40:34.441 [info] Getting Manifest... github.vscode-pull-request-github
+2025-04-25 19:40:34.477 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aayush/.vscode/extensions/extensions.json","path":"/home/aayush/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-04-25 19:40:35.974 [info] Extension signature verification result for github.vscode-pull-request-github: Success. Internal Code: 0. Executed: true. Duration: 696ms.
+2025-04-25 19:40:36.043 [info] Extracted extension to file:///home/aayush/.vscode/extensions/github.vscode-pull-request-github-0.108.0: github.vscode-pull-request-github
+2025-04-25 19:40:36.061 [info] Renamed to /home/aayush/.vscode/extensions/github.vscode-pull-request-github-0.108.0
+2025-04-25 19:40:36.087 [info] Extension installed successfully: github.vscode-pull-request-github vscode-userdata:/home/aayush/.vscode/extensions/extensions.json

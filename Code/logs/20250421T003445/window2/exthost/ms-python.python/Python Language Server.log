@@ -1,0 +1,27 @@
+2025-04-21 00:36:11.172 [info] (Client) Pylance async client (2025.4.1) started with python extension (2025.4.0)
+2025-04-21 00:36:11.605 [info] [Info  - 00:36:11] (3456) Server root directory: file:///home/aayush/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-21 00:36:11.606 [info] [Info  - 00:36:11] (3456) Pylance language server 2025.4.1 (pyright version 1.1.398, commit 4f24eccc) starting
+2025-04-21 00:36:11.609 [info] [Info  - 00:36:11] (3456) Starting service instance "Python" for workspace "/run/media/aayush/New Volume/Python"
+2025-04-21 00:36:11.668 [info] [Info  - 00:36:11] (3456) Setting environmentName for service "Python": "3.13.3 (global)"
+2025-04-21 00:36:11.668 [info] [Info  - 00:36:11] (3456) Setting pythonPath for service "Python": "/bin/python"
+2025-04-21 00:36:11.668 [info] [Info  - 00:36:11] (3456) No include entries specified; assuming /run/media/aayush/New Volume/Python
+2025-04-21 00:36:11.668 [info] [Info  - 00:36:11] (3456) Auto-excluding **/node_modules
+2025-04-21 00:36:11.669 [info] [Info  - 00:36:11] (3456) Auto-excluding **/__pycache__
+2025-04-21 00:36:11.669 [info] [Info  - 00:36:11] (3456) Auto-excluding **/.*
+2025-04-21 00:36:11.688 [info] [Info  - 00:36:11] (3456) Assuming Python version 3.13.3.final.0
+2025-04-21 00:36:11.739 [info] [Info  - 00:36:11] (3456) Found 15 source files
+2025-04-21 00:36:11.754 [info] [Info  - 00:36:11] (3456) Setting environmentName for service "Python": "3.13.3 (global)"
+2025-04-21 00:36:11.754 [info] [Info  - 00:36:11] (3456) Setting pythonPath for service "Python": "/bin/python"
+2025-04-21 00:36:11.754 [info] [Info  - 00:36:11] (3456) No include entries specified; assuming /run/media/aayush/New Volume/Python
+2025-04-21 00:36:11.755 [info] [Info  - 00:36:11] (3456) Auto-excluding **/node_modules
+2025-04-21 00:36:11.755 [info] [Info  - 00:36:11] (3456) Auto-excluding **/__pycache__
+2025-04-21 00:36:11.755 [info] [Info  - 00:36:11] (3456) Auto-excluding **/.*
+2025-04-21 00:36:11.775 [info] [Info  - 00:36:11] (3456) Assuming Python version 3.13.3.final.0
+2025-04-21 00:36:11.818 [info] [Info  - 00:36:11] (3456) Found 15 source files
+2025-04-21 00:36:12.168 [info] [Info  - 00:36:12] (3456) BG: Priority queue background worker(2) root directory: file:///home/aayush/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-21 00:36:12.168 [info] [Info  - 00:36:12] (3456) BG: Priority queue background worker(2) started
+2025-04-21 00:36:12.301 [info] [Info  - 00:36:12] (3456) BG: Indexer background runner(3) root directory: file:///home/aayush/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-04-21 00:36:12.301 [info] [Info  - 00:36:12] (3456) BG: Indexing(3) started
+2025-04-21 00:36:12.589 [info] [Info  - 00:36:12] (3456) BG: scanned(3) 56 files over 1 exec env
+2025-04-21 00:36:13.161 [info] [Info  - 00:36:13] (3456) BG: indexed(3) 56 files over 1 exec env
+2025-04-21 00:36:13.176 [info] [Info  - 00:36:13] (3456) BG: Indexing finished(3).

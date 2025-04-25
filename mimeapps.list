@@ -1,0 +1,20 @@
+[Added Associations]
+application/x-shellscript=org.kde.kate.desktop;kitty-2.desktop;kate-3.desktop;
+image/jpeg=gwenview-3.desktop;
+image/png=gwenview-2.desktop;gwenview.desktop;
+text/plain=okularApplication_txt.desktop;dev.zed.Zed.desktop;org.kde.kwrite.desktop;nvim.desktop;com.visualstudio.code.desktop;org.kde.kate.desktop;kate-4.desktop;kate-2.desktop;kate.desktop;
+application/x-executable=org.kde.kate.desktop;
+application/json=com.visualstudio.code.desktop;
+application/x-zerosize=org.kde.kate.desktop;
+text/x-csrc=org.kde.kate.desktop;
+text/css=com.visualstudio.code.desktop;
+
+[Default Applications]
+application/x-shellscript=kitty-2.desktop;
+image/jpeg=gwenview-3.desktop;
+image/png=gwenview-2.desktop;
+text/html=chromium.desktop
+text/plain=kate-4.desktop;
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
+application/x-executable=org.kde.kate.desktop

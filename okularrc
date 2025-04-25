@@ -1,0 +1,20 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/T2202.pdf
+File2[$e]=$HOME/vscode-customizations/README.md
+File3[$e]=$HOME/vscode-settings/README.md
+File4[$e]=$HOME/.config/waybar/hypr/config
+File5[$e]=$HOME/text-script-files/config/rofi/README.md
+File6[$e]=$HOME/top-bar-organizer/README.md
+Name1[$e]=T2202.pdf
+Name2[$e]=README.md
+Name3[$e]=README.md
+Name4[$e]=config
+Name5[$e]=README.md
+Name6[$e]=README.md

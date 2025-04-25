@@ -1,0 +1,68 @@
+2025-04-12 21:26:50.017 [info] Extension host with pid 14339 started
+2025-04-12 21:26:50.017 [info] Skipping acquiring lock for /home/aayush/.config/Code - OSS/User/workspaceStorage/ddc6147d06488b5cb86b616173dd9202.
+2025-04-12 21:26:50.114 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-12 21:26:50.130 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-04-12 21:26:50.314 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-12 21:26:50.352 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-04-12 21:26:50.352 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:48788)
+	at t.registerDebugger (/home/aayush/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:846640)
+	at e.activate (/home/aayush/.vscode-oss/extensions/ms-python.debugpy-2025.6.0-linux-x64/dist/extension.js:2:1098056)
+	at Uw.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:15216)
+	at Uw.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:14923)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:13081
+	at async cw.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+	at async cw.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+	at async cw.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)
+2025-04-12 21:26:50.354 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-12 21:26:50.373 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-12 21:26:50.403 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-12 21:26:50.446 [info] Eager extensions activated
+2025-04-12 21:26:50.466 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 21:26:50.468 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 21:26:50.480 [info] ExtensionService#_doActivateExtension castrogusttavo.symbols, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 21:26:50.483 [info] ExtensionService#_doActivateExtension drcika.apc-extension, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 21:26:50.486 [error] Activating extension drcika.apc-extension failed due to an error:
+2025-04-12 21:26:50.486 [error] TypeError: Cannot read properties of undefined (reading 'filename')
+	at Object.<anonymous> (/home/aayush/.vscode-oss/extensions/drcika.apc-extension-0.4.1-universal/dist/patch.js:17:52)
+	at Module._compile (node:internal/modules/cjs/loader:1544:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1629:10)
+	at Module.load (node:internal/modules/cjs/loader:1282:32)
+	at Module._load (node:internal/modules/cjs/loader:1103:12)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:197:1509)
+	at t._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:183:22390)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:24781)
+	at Module.require (node:internal/modules/cjs/loader:1305:19)
+	at require (node:internal/modules/helpers:182:18)
+	at Object.<anonymous> (/home/aayush/.vscode-oss/extensions/drcika.apc-extension-0.4.1-universal/dist/extension.js:7:17)
+	at Module._compile (node:internal/modules/cjs/loader:1544:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1629:10)
+	at Module.load (node:internal/modules/cjs/loader:1282:32)
+	at Module._load (node:internal/modules/cjs/loader:1103:12)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:197:1509)
+	at t._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:183:22390)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:175:24781)
+	at Module.require (node:internal/modules/cjs/loader:1305:19)
+	at require (node:internal/modules/helpers:182:18)
+	at vV.xb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:183:23710)
+	at async Promise.all (index 0)
+2025-04-12 21:26:50.486 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 21:26:50.532 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 21:26:50.538 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 21:26:50.578 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 21:26:51.375 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:32518)
+	at C.activate (/home/aayush/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/aayush/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/aayush/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)
+2025-04-12 21:26:53.701 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-12 21:26:53.714 [info] Extension host with pid 14339 exiting with code 0

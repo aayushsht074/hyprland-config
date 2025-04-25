@@ -1,0 +1,12 @@
+2025/03/31-22:16:28.177 52e Reusing MANIFEST /home/aayush/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/31-22:16:28.177 52e Recovering log #61
+2025/03/31-22:16:28.191 52e Reusing old log /home/aayush/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000061.log 
+2025/03/31-22:16:30.236 52f Level-0 table #66: started
+2025/03/31-22:16:30.258 52f Level-0 table #66: 1631128 bytes OK
+2025/03/31-22:16:30.277 52f Delete type=0 #61
+2025/03/31-22:17:02.002 52f Compacting 1@1 + 1@2 files
+2025/03/31-22:17:02.026 52f Generated table #67@1: 330 keys, 50692 bytes
+2025/03/31-22:17:02.026 52f Compacted 1@1 + 1@2 files => 50692 bytes
+2025/03/31-22:17:02.044 52f compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/31-22:17:02.044 52f Delete type=2 #66
+2025/03/31-22:17:02.044 52f Delete type=2 #63

@@ -1,0 +1,41 @@
+2025-04-21 00:36:10.518 [info] Telemetry level is off
+2025-04-21 00:36:10.518 [info] Experiments are disabled, only manually opted experiments are active.
+2025-04-21 00:36:10.518 [warning] Dir "/run/media/aayush/New Volume/Python/.pixi/envs" is not watchable (directory does not exist)
+2025-04-21 00:36:10.518 [info] Starting Environment refresh
+2025-04-21 00:36:10.518 [info] Searching for interpreters in posix paths locator
+2025-04-21 00:36:10.518 [info] Searching for pyenv environments
+2025-04-21 00:36:10.518 [info] Searching for conda environments
+2025-04-21 00:36:10.518 [info] Searching for global virtual environments
+2025-04-21 00:36:10.518 [info] Searching for custom virtual environments
+2025-04-21 00:36:10.518 [info] pyenv is not installed
+2025-04-21 00:36:10.518 [info] Finished searching for pyenv environments: 7 milliseconds
+2025-04-21 00:36:10.518 [info] Finished searching for custom virtual envs: 7 milliseconds
+2025-04-21 00:36:10.518 [info] > conda info --json
+2025-04-21 00:36:10.518 [info] > hatch env show --json
+2025-04-21 00:36:10.518 [info] cwd: /run/media/aayush/New Volume/Python
+2025-04-21 00:36:10.518 [info] > pyenv which python
+2025-04-21 00:36:10.518 [info] cwd: /run/media/aayush/New Volume/Python
+2025-04-21 00:36:10.518 [info] Finished searching for global virtual envs: 26 milliseconds
+2025-04-21 00:36:10.519 [info] Found: /bin/python --> /bin/python3.13
+2025-04-21 00:36:10.521 [info] Found: /bin/python3 --> /bin/python3.13
+2025-04-21 00:36:10.521 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-04-21 00:36:10.543 [info] Found: /sbin/python --> /sbin/python3.13
+2025-04-21 00:36:10.543 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-04-21 00:36:10.543 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-04-21 00:36:10.547 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-04-21 00:36:10.547 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-04-21 00:36:10.547 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-04-21 00:36:10.570 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-04-21 00:36:10.570 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-04-21 00:36:10.570 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-04-21 00:36:10.583 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/interpreterInfo.py
+2025-04-21 00:36:10.592 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/interpreterInfo.py
+2025-04-21 00:36:10.597 [info] Finished searching for interpreters in posix paths locator: 404 milliseconds
+2025-04-21 00:36:10.600 [info] Environments refresh paths discovered (event): 407 milliseconds
+2025-04-21 00:36:10.601 [info] Environments refresh paths discovered: 408 milliseconds
+2025-04-21 00:36:10.609 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/interpreterInfo.py
+2025-04-21 00:36:10.619 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/interpreterInfo.py
+2025-04-21 00:36:10.640 [info] Environments refresh finished (event): 447 milliseconds
+2025-04-21 00:36:10.645 [info] Environment refresh took 452 milliseconds
+2025-04-21 00:36:10.666 [info] Python interpreter path: /bin/python
+2025-04-21 00:36:11.622 [info] Starting Pylance language server.
