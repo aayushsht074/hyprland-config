@@ -1,0 +1,2 @@
+2025-04-25 19:50:20.814 [info] Log level: Info
+2025-04-25 19:53:34.741 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for aayushsht074/hyprland-config/05a3746a98870cc5c36dbc2a928faced520b92c4: TypeError: Cannot read properties of null (reading 'author')

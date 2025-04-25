@@ -271,3 +271,263 @@
 2025-04-25 19:44:05.613 [warning] [Git][getBranch] No such branch: main
 2025-04-25 19:44:05.625 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
 2025-04-25 19:44:05.630 [info] > git status -z -uall [12ms]
+2025-04-25 19:44:19.842 [info] > git add -A -- . [8063ms]
+2025-04-25 19:44:19.916 [info] > git -c user.useConfigOnly=true commit --quiet [68ms]
+2025-04-25 19:44:19.916 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-04-25 19:44:19.922 [info] > git config --get-all user.name [0ms]
+2025-04-25 19:44:19.932 [info] > git config --get commit.template [5ms]
+2025-04-25 19:44:19.933 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:19.933 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:19.944 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:19.950 [info] > git status -z -uall [12ms]
+2025-04-25 19:44:19.985 [info] > git config --get commit.template [2ms]
+2025-04-25 19:44:19.993 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:19.993 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:20.012 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:20.017 [info] > git status -z -uall [15ms]
+2025-04-25 19:44:20.970 [info] > git check-ignore -v -z --stdin [1ms]
+2025-04-25 19:44:26.716 [info] > git config --get commit.template [1ms]
+2025-04-25 19:44:26.725 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:26.725 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:26.743 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:26.749 [info] > git status -z -uall [17ms]
+2025-04-25 19:44:31.788 [info] > git config --get commit.template [6ms]
+2025-04-25 19:44:31.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:31.789 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:31.804 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:31.808 [info] > git status -z -uall [13ms]
+2025-04-25 19:44:36.857 [info] > git config --get commit.template [7ms]
+2025-04-25 19:44:36.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:36.857 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:36.871 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:36.875 [info] > git status -z -uall [12ms]
+2025-04-25 19:44:39.066 [info] > git -c user.useConfigOnly=true commit --quiet [5ms]
+2025-04-25 19:44:39.066 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-04-25 19:44:39.072 [info] > git config --get-all user.name [0ms]
+2025-04-25 19:44:39.085 [info] > git config --get commit.template [6ms]
+2025-04-25 19:44:39.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:39.085 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:39.098 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:39.102 [info] > git status -z -uall [11ms]
+2025-04-25 19:44:43.397 [info] > git config --get commit.template [6ms]
+2025-04-25 19:44:43.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:43.398 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:43.413 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:43.416 [info] > git status -z -uall [12ms]
+2025-04-25 19:44:48.460 [info] > git config --get commit.template [7ms]
+2025-04-25 19:44:48.460 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:48.460 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:48.474 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:48.505 [info] > git status -z -uall [39ms]
+2025-04-25 19:44:51.829 [info] > git -c user.useConfigOnly=true commit --quiet [34ms]
+2025-04-25 19:44:51.829 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-04-25 19:44:51.836 [info] > git config --get-all user.name [1ms]
+2025-04-25 19:44:51.852 [info] > git config --get commit.template [8ms]
+2025-04-25 19:44:51.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:51.852 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:51.869 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:51.911 [info] > git status -z -uall [52ms]
+2025-04-25 19:44:59.941 [info] > git config --get commit.template [7ms]
+2025-04-25 19:44:59.941 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:44:59.941 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:44:59.956 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:44:59.991 [info] > git status -z -uall [44ms]
+2025-04-25 19:47:04.496 [info] > git config --get commit.template [10ms]
+2025-04-25 19:47:04.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:47:04.496 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:47:04.513 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:47:04.552 [info] > git status -z -uall [49ms]
+2025-04-25 19:47:04.922 [info] > git fetch [444ms]
+2025-04-25 19:47:04.922 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/aayushsht074/hyprland-config.git/'
+2025-04-25 19:47:04.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-25 19:47:04.944 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:47:04.944 [info] > git config --get commit.template [14ms]
+2025-04-25 19:47:04.965 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:47:05.007 [info] > git status -z -uall [52ms]
+2025-04-25 19:47:09.595 [info] > git config --get commit.template [5ms]
+2025-04-25 19:47:09.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:47:09.596 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:47:09.607 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:47:09.649 [info] > git status -z -uall [48ms]
+2025-04-25 19:47:14.682 [info] > git config --get commit.template [6ms]
+2025-04-25 19:47:14.682 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:47:14.683 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:47:14.698 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-25 19:47:14.734 [info] > git status -z -uall [45ms]
+2025-04-25 19:47:19.772 [info] > git config --get commit.template [5ms]
+2025-04-25 19:47:19.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:47:19.773 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:47:19.785 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:47:19.822 [info] > git status -z -uall [44ms]
+2025-04-25 19:48:35.409 [info] > git config --get commit.template [8ms]
+2025-04-25 19:48:35.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:48:35.410 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:48:35.426 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:48:35.465 [info] > git status -z -uall [49ms]
+2025-04-25 19:48:40.504 [info] > git config --get commit.template [6ms]
+2025-04-25 19:48:40.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:48:40.505 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:48:40.521 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:48:40.563 [info] > git status -z -uall [50ms]
+2025-04-25 19:48:45.609 [info] > git config --get commit.template [9ms]
+2025-04-25 19:48:45.609 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:48:45.609 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:48:45.624 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:48:45.663 [info] > git status -z -uall [47ms]
+2025-04-25 19:48:50.708 [info] > git config --get commit.template [7ms]
+2025-04-25 19:48:50.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:48:50.709 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:48:50.726 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-25 19:48:50.766 [info] > git status -z -uall [50ms]
+2025-04-25 19:48:55.805 [info] > git config --get commit.template [6ms]
+2025-04-25 19:48:55.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-04-25 19:48:55.806 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:48:55.817 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:48:55.858 [info] > git status -z -uall [47ms]
+2025-04-25 19:49:00.897 [info] > git config --get commit.template [7ms]
+2025-04-25 19:49:00.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:00.897 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:00.911 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:49:00.951 [info] > git status -z -uall [49ms]
+2025-04-25 19:49:08.742 [info] > git config --get commit.template [6ms]
+2025-04-25 19:49:08.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:08.743 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:08.758 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-25 19:49:08.800 [info] > git status -z -uall [51ms]
+2025-04-25 19:49:14.064 [info] > git config --get commit.template [6ms]
+2025-04-25 19:49:14.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:14.064 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:14.077 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:49:14.118 [info] > git status -z -uall [48ms]
+2025-04-25 19:49:19.159 [info] > git config --get commit.template [5ms]
+2025-04-25 19:49:19.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:19.160 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:19.174 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-25 19:49:19.220 [info] > git status -z -uall [55ms]
+2025-04-25 19:49:21.073 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-04-25 19:49:21.073 [info] fatal: bad revision 'refs/heads/main'
+2025-04-25 19:49:21.073 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-04-25 19:49:24.256 [info] > git config --get commit.template [6ms]
+2025-04-25 19:49:24.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:24.257 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:24.272 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:49:24.312 [info] > git status -z -uall [49ms]
+2025-04-25 19:49:28.960 [info] > git branch [1ms]
+2025-04-25 19:49:29.019 [info] > git rm --cached -r -- . [52ms]
+2025-04-25 19:49:29.019 [info] error: the following files have staged content different from both the
+file and the HEAD:
+    Code/Cache/Cache_Data/index-dir/the-real-index
+    Code/CachedData/17baf841131aa23349f217ca7c570c76ee87b957/chrome/js/index-dir/the-real-index
+    Code/DawnGraphiteCache/data_1
+    Code/DawnWebGPUCache/data_1
+    Code/GPUCache/data_1
+    Code/User/History/4cab9e20/entries.json
+    Code/User/workspaceStorage/e00d5a63a0cbac884c82e5cec28fac89/state.vscdb
+    Code/logs/20250425T193543/window1/exthost/exthost.log
+    Code/logs/20250425T193543/window1/exthost/vscode.git/Git.log
+    chromium/Default/DIPS-shm
+    chromium/Default/DIPS-wal
+    chromium/Default/DawnGraphiteCache/data_1
+    chromium/Default/DawnWebGPUCache/data_1
+    chromium/Default/Favicons
+    chromium/Default/GPUCache/data_0
+    chromium/Default/GPUCache/data_1
+    chromium/Default/GPUCache/index
+    chromium/Default/History
+    chromium/Default/History-journal
+    chromium/Default/Network Action Predictor
+    chromium/Default/Network Persistent State
+    chromium/Default/Preferences
+    chromium/Default/Session Storage/000028.log
+    chromium/Default/Sessions/Session_13390098045736997
+    chromium/Default/Visited Links
+    chromium/Default/WebStorage/QuotaManager
+    chromium/Default/shared_proto_db/000003.log
+    chromium/GrShaderCache/data_0
+    chromium/GrShaderCache/data_1
+    chromium/GrShaderCache/data_3
+    chromium/GrShaderCache/index
+    chromium/GraphiteDawnCache/data_1
+    chromium/Local State
+    chromium/ShaderCache/data_1
+    chromium/segmentation_platform/ukm_db
+    dconf/user
+    kde.org/UserFeedback.org.kde.kate.conf
+(use -f to force removal)
+2025-04-25 19:49:29.032 [info] > git config --get commit.template [7ms]
+2025-04-25 19:49:29.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:29.033 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:29.049 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:49:29.088 [info] > git status -z -uall [48ms]
+2025-04-25 19:49:29.695 [info] > git config --get commit.template [5ms]
+2025-04-25 19:49:29.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:29.695 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:29.707 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:49:29.748 [info] > git status -z -uall [48ms]
+2025-04-25 19:49:34.789 [info] > git config --get commit.template [6ms]
+2025-04-25 19:49:34.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:34.790 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:34.804 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:49:34.843 [info] > git status -z -uall [47ms]
+2025-04-25 19:49:38.594 [info] > git check-ignore -v -z --stdin [4ms]
+2025-04-25 19:49:39.893 [info] > git config --get commit.template [7ms]
+2025-04-25 19:49:39.893 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:39.893 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:39.909 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:49:39.950 [info] > git status -z -uall [51ms]
+2025-04-25 19:49:44.987 [info] > git config --get commit.template [7ms]
+2025-04-25 19:49:44.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:49:44.987 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:49:45.003 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-25 19:49:45.045 [info] > git status -z -uall [51ms]
+2025-04-25 19:50:13.614 [info] > git config --get commit.template [7ms]
+2025-04-25 19:50:13.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-04-25 19:50:13.614 [warning] [Git][getBranch] No such branch: main
+2025-04-25 19:50:13.632 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-25 19:50:13.671 [info] > git status -z -uall [50ms]

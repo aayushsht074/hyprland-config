@@ -1,0 +1,21 @@
+2025-04-25 19:50:20.858 [warning] /home/aayush/.ssh/config: ENOENT: no such file or directory, open '/home/aayush/.ssh/config'
+2025-04-25 19:50:20.858 [info] [Activation] Extension version: 0.108.0
+2025-04-25 19:50:21.383 [info] [Activation] Looking for git repository
+2025-04-25 19:50:21.383 [info] [Activation] Found 0 repositories during activation
+2025-04-25 19:50:21.383 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-04-25 19:50:21.385 [info] [GitAPI] Registering git provider
+2025-04-25 19:50:21.504 [info] [Activation] Repo state for file:///home/aayush/.config changed.
+2025-04-25 19:50:21.504 [info] [Activation] Repo file:///home/aayush/.config has already been setup.
+2025-04-25 19:50:22.173 [info] [Activation] Git initialization state changed: state=initialized
+2025-04-25 19:50:22.173 [info] [Review+0] Validate state in progress
+2025-04-25 19:50:22.173 [info] [Review+0] Validating state...
+2025-04-25 19:50:22.173 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-04-25 19:50:22.173 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/aayush/.config
+2025-04-25 19:50:22.190 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-04-25 19:50:22.201 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-04-25 19:53:33.125 [info] [Review+0] Validate state in progress
+2025-04-25 19:53:33.125 [info] [Review+0] Validating state...
+2025-04-25 19:53:33.128 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-04-25 19:53:33.128 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/aayush/.config
+2025-04-25 19:53:33.152 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-04-25 19:53:33.172 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main

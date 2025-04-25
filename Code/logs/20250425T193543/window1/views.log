@@ -34,3 +34,4 @@
 2025-04-25 19:42:57.575 [info] Added views:workbench.scm.history in workbench.view.scm
 2025-04-25 19:42:57.593 [info] Added views:github:activePullRequest:welcome in workbench.view.extension.github-pull-request
 2025-04-25 19:42:58.097 [info] Removed views:github:activePullRequest:welcome from workbench.view.extension.github-pull-request
+2025-04-25 19:50:15.893 [info] Removed views:workbench.scm.history from workbench.view.scm

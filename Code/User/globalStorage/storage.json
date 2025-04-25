@@ -9,11 +9,7 @@
                 "folderUri": "file:///home/aayush/.config"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1745624144392"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 30,
     "profileAssociations": {
